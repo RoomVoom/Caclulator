@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_exp"
+                style="@style/Exp_Style"
+                android:fontFamily="@font/audiowide"
+                android:text="@string/string_expression" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_result"
+                style="@style/Result_Style"
+                android:text="@string/string_result" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_clear"
+                style="@style/Button_Style_Actions"
+                android:text="@string/string_ac" />
+
+            <TextView
+                android:id="@+id/tv_open"
+                style="@style/Button_Style_Actions"
+                android:text="@string/string_open" />
+
+            <TextView
+                android:id="@+id/tv_close"
+                style="@style/Button_Style_Actions"
+                android:layout_height="104dp"
+                android:text="@string/string_close" />
+
+            <TextView
+                android:id="@+id/tv_plus"
+                style="@style/Button_Style_Actions"
+                android:text="@string/string_plus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_seven"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/string_seven" />
+
+            <TextView
+                android:id="@+id/tv_eight"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/string_eight" />
+
+            <TextView
+                android:id="@+id/tv_nine"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/_9" />
+
+            <TextView
+                android:id="@+id/tv_minus"
+                style="@style/Button_Style_Actions"
+                android:text="@string/string_minus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_four"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/string_four" />
+
+            <TextView
+                android:id="@+id/tv_five"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/string_five" />
+
+            <TextView
+                android:id="@+id/tv_six"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/string_six" />
+
+            <TextView
+                android:id="@+id/tv_mul"
+                style="@style/Button_Style_Actions"
+                android:text="@string/string_mul" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_one"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/string_one" />
+
+            <TextView
+                android:id="@+id/tv_two"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/string_two" />
+
+            <TextView
+                android:id="@+id/tv_three"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/string_three" />
+
+            <TextView
+                android:id="@+id/tv_div"
+                style="@style/Button_Style_Actions"
+                android:text="@string/string_div" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_dot"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/string_dot" />
+
+            <TextView
+                android:id="@+id/tv_zero"
+                style="@style/Button_Style_Numbers"
+                android:text="@string/string_zero" />
+
+            <ImageView
+                android:id="@+id/iv_backspace"
+                style="@style/Button_Style_Numbers"
+                android:src="@mipmap/ic_backspace" />
+
+            <TextView
+                android:id="@+id/tv_equals"
+                style="@style/Button_Style_Actions"
+                android:text="@string/string_equals" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
