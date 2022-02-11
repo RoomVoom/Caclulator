@@ -62,7 +62,6 @@
             <TextView
                 android:id="@+id/tv_close"
                 style="@style/Button_Style_Actions"
-                android:layout_height="104dp"
                 android:text="@string/string_close" />
 
             <TextView
